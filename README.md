@@ -44,7 +44,7 @@ alt='Jayed Hossain Jibon'
 
 <hr/>
 
-<div style="text-align:center">
+<div align="center">
         <a href="https://www.programiz.com/python-programming/examples" target="_blank">Programiz
         </a>
         |
@@ -69,6 +69,26 @@ print("Hello World!")
 ```
 </details>
 
+##### 02. Add Two Numbers
+```
+Input: num1 = 5, num2 = 10
+Output: 15
+Explanation: 5 + 10 = 15
+
+Complexity Analysis
+    Time Complexity: O(1)
+    Auxiliary Space: O(1)
+```
+<details>
+<summary style="cursor:pointer">Solution</summary>
+
+```py
+num1 = 5;
+num2 = 10;
+sum = num1 + num2;
+print(sum) // Output: 15
+```
+</details>
 
 
 
