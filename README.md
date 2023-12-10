@@ -44,28 +44,32 @@ alt='Jayed Hossain Jibon'
 
 <hr/>
 
-##### 01. Add Two Numbers
+<div style="text-align:center">
+        <a href="https://www.programiz.com/python-programming/examples" target="_blank">Programiz
+        </a>
+        |
+        <a href="https://pynative.com/python-basic-exercise-for-beginners/" target="_blank">PYnative</a>
+        |
+        <a href="https://www.geeksforgeeks.org/python-programming-examples/" target="_blank">Geeksforgeeks</a>
+        |
+        <a href="https://www.w3resource.com/python-exercises/" target="_blank">w3resource</a>
+        |
+        <a href="https://www.hackerrank.com/" target="_blank">HackerRank</a>
+        |
+        <a href="https://leetcode.com/" target="_blank">LeetCode</a>
+</div>
+<hr/>
 
-```
-Input: num1 = 5, num2 = 10
-Output: 15
-Explanation: 5 + 10 = 15
-
-Complexity Analysis
-    Time Complexity: O(1)
-    Auxiliary Space: O(1)
-```
-
+##### 01. Print Hello world!
 <details>
 <summary style="cursor:pointer">Solution</summary>
 
 ```py
-num1 = 5;
-num2 = 10;
-sum = num1 + num2;
-print(sum) // Output: 15
+print("Hello World!")
 ```
 </details>
+
+
 
 
 ---
