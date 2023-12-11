@@ -109,6 +109,25 @@ print(output)
 ```
 </details>
 
+##### 04. Area of triangle
+```
+formula : area = 0.5 * base * height.
+
+Complexity Analysis
+    Time Complexity: O(1)
+    Auxiliary Space: O(1)
+```
+<details>
+<summary style="cursor:pointer">Solution</summary>
+
+```py
+base = float(input("Enter the base length of the triangle: "))
+height = float(input("Enter the height of the triangle: "))
+area = 0.5 * base * height
+print("The area of the triangle is:", area)
+```
+</details>
+
 
 
 ---
