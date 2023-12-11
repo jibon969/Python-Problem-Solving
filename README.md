@@ -90,6 +90,25 @@ print(sum) // Output: 15
 ```
 </details>
 
+##### 03. Square Root
+```
+Input: num1 = 5, num2 = 10
+Output: 15
+
+Complexity Analysis
+    Time Complexity: O(1)
+    Auxiliary Space: O(1)
+```
+<details>
+<summary style="cursor:pointer">Solution</summary>
+
+```py
+user_input = int(input("Enter your number : "))
+output = user_input ** 0.5
+print(output)
+```
+</details>
+
 
 
 ---
