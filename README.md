@@ -1,8 +1,6 @@
-
-
 <img src="img/problem-solving.png" id='header'>
 
-<h1 align="center">Python Problem Solving</h1>
+<h1 align="center">Python Problem Solving </h1>
 
 <div align="center">
 <!-- Gmail Account -->
@@ -64,7 +62,7 @@ alt='Jayed Hossain Jibon'
 <details>
 <summary style="cursor:pointer">Solution</summary>
 
-```py
+```js
 print("Hello World!")
 ```
 </details>
