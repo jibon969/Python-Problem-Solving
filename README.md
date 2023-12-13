@@ -210,6 +210,29 @@ elif number == 0:
 ##### 08. Positive Negative or
 ```
 input  : 10
+output : Positive
+Complexity Analysis
+    Time Complexity: O(1)
+    Auxiliary Space: O(1)
+```
+<details>
+<summary style="cursor:pointer">Solution</summary>
+
+```py
+number = 10
+if number > 0:
+        print("Positive")
+elif number < 0:
+         print("Negative")
+elif number == 0:
+         print("0")
+```
+</details>
+
+
+##### 09. Even or odd Number
+```
+input  : 10
 output : Even number
 Complexity Analysis
     Time Complexity: O(1)
@@ -227,6 +250,26 @@ else:
 ```
 </details>
 
+
+##### 10. Check Leap Year
+```
+input  : 2024
+output : Leap Year
+Complexity Analysis
+    Time Complexity: O(1)
+    Auxiliary Space: O(1)
+```
+<details>
+<summary style="cursor:pointer">Solution</summary>
+
+```py
+year = int(input("Enter your your : "))
+if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
+    print("Leap Year")
+else:
+    print("Not leap year ")
+```
+</details>
 
 
 
