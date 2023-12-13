@@ -167,6 +167,23 @@ print(b)
 ```
 </details>
 
+##### 07. Generate a Random Number
+```
+output : Random number 
+Complexity Analysis
+    Time Complexity: O(1)
+    Auxiliary Space: O(1)
+```
+<details>
+<summary style="cursor:pointer">Solution</summary>
+
+```py
+import random
+x = random.randint(1, 100)
+print(x)
+```
+</details>
+
 
 
 ---
