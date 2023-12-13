@@ -126,6 +126,47 @@ print("The area of the triangle is:", area)
 ```
 </details>
 
+##### 05. Quadratic Equation
+```
+Complexity Analysis
+    Time Complexity: O(1)
+    Auxiliary Space: O(1)
+```
+<details>
+<summary style="cursor:pointer">Solution</summary>
+
+```py
+```
+</details>
+
+##### 06. Swap Variable
+```
+input  : a = 5
+         b = 6
+output : a = 6
+         b = 5
+Complexity Analysis
+    Time Complexity: O(1)
+    Auxiliary Space: O(1)
+```
+<details>
+<summary style="cursor:pointer">Solution</summary>
+
+```py
+a = 5
+b = 6
+c = a + b
+a = c - a
+b = c - b
+print(a)
+print(b)
+# or
+a, b = b, a 
+print(a)
+print(b)
+```
+</details>
+
 
 
 ---
