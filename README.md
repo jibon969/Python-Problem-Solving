@@ -167,6 +167,69 @@ print(b)
 ```
 </details>
 
+##### 07. Generate a Random Number
+```
+output : Random number 
+Complexity Analysis
+    Time Complexity: O(1)
+    Auxiliary Space: O(1)
+```
+<details>
+<summary style="cursor:pointer">Solution</summary>
+
+```py
+import random
+x = random.randint(1, 100)
+print(x)
+```
+</details>
+
+
+##### 08. Positive Negative or
+```
+input  : 10
+output : Positive
+Complexity Analysis
+    Time Complexity: O(1)
+    Auxiliary Space: O(1)
+```
+<details>
+<summary style="cursor:pointer">Solution</summary>
+
+```py
+number = 10
+if number > 0:
+    print("Positive")
+elif number < 0:
+        print("Negative")
+elif number == 0:
+     print("0")
+```
+</details>
+
+##### 08. Positive Negative or
+```
+input  : 10
+output : Even number
+Complexity Analysis
+    Time Complexity: O(1)
+    Auxiliary Space: O(1)
+```
+<details>
+<summary style="cursor:pointer">Solution</summary>
+
+```py
+number = 10
+if number % 2 == 0:
+    print("Even number")
+else:
+     print("Odd number")
+```
+</details>
+
+
+
+
 
 
 ---
