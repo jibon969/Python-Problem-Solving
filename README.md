@@ -207,6 +207,29 @@ elif number == 0:
 ```
 </details>
 
+##### 08. Positive Negative or
+```
+input  : 10
+output : Even number
+Complexity Analysis
+    Time Complexity: O(1)
+    Auxiliary Space: O(1)
+```
+<details>
+<summary style="cursor:pointer">Solution</summary>
+
+```py
+number = 10
+if number % 2 == 0:
+    print("Even number")
+else:
+     print("Odd number")
+```
+</details>
+
+
+
+
 
 
 ---
