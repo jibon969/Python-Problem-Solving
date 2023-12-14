@@ -272,5 +272,32 @@ else:
 </details>
 
 
+##### 11. Find the Largest Among Three Numbers
+```
+input  : a = 5
+         b = 6
+         c = 10
+output : C is large number
+Complexity Analysis
+    Time Complexity: O(1)
+    Auxiliary Space: O(1)
+```
+<details>
+<summary style="cursor:pointer">Solution</summary>
+
+```py
+a =  int(input("Enter your 1st number : "))
+b = int(input("Enter your 2nd number : "))
+c = int(input("Enter your 3rd number : "))
+if a > b:
+    print("A is largest number")
+elif b > c:
+    print("B is largest number ")
+elif a < c:
+    print("C is largest number")
+```
+</details>
+
+
 ---
 **[⬆ Back to Top](#header)**
