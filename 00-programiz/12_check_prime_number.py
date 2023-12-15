@@ -1,3 +1,4 @@
+
 # Check Prime Number
 """ 
 A prime number can be defined as a natural number greater than 1
