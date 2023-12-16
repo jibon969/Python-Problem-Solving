@@ -326,9 +326,6 @@ else:
 ```
 input  : 900, 1000
 output : Its Prime 
-Definition :
-A prime number can be defined as a natural number greater than 1
-whose only factors are 1 and the number itself.
 ```
 <details>
 <summary style="cursor:pointer">Solution</summary>
