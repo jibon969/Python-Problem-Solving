@@ -360,6 +360,17 @@ print("The factorial of",num,"is",factorial)
 ```
 </details>
 
+##### 15. Display the multiplication Table
+<details>
+<summary style="cursor:pointer">Solution</summary>
+
+```py
+number = int(input("Enter your number : "))
+for i in range(1, 11):
+    print(number,'x', i, '=', i*number)
+```
+</details>
+
 
 ---
 **[⬆ Back to Top](#header)**
