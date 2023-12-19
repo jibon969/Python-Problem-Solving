@@ -343,6 +343,23 @@ for num in range(lower, upper + 1):
 ```
 </details>
 
+##### 14. Factorial of a Number
+```
+input  : 5
+output : 120
+```
+<details>
+<summary style="cursor:pointer">Solution</summary>
+
+```py
+num = 5
+factorial = 1
+for i in range(1,num + 1):
+    factorial = factorial*i
+print("The factorial of",num,"is",factorial)
+```
+</details>
+
 
 ---
 **[⬆ Back to Top](#header)**
