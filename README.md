@@ -368,6 +368,11 @@ print("The factorial of",num,"is",factorial)
 number = int(input("Enter your number : "))
 for i in range(1, 11):
     print(number,'x', i, '=', i*number)
+# or
+num = 1
+while num <=10:
+    print(num,'x', num, '=', num*num)
+    num = num + 1
 ```
 
 </details>
