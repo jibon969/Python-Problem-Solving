@@ -374,7 +374,6 @@ while num <=10:
     print(num,'x', num, '=', num*num)
     num = num + 1
 ```
-
 </details>
 
 
