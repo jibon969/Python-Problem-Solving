@@ -1,3 +1,5 @@
+# Check if the first and last number of a list is the same
+
 def first_last_same(numberList):
     print("Given list:", numberList)
     
