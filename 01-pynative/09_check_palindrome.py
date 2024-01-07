@@ -1,3 +1,5 @@
+# Check Palindrome Number
+
 def palindrome(number):
     print("original number", number)
     original_num = number
