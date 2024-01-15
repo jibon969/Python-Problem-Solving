@@ -4,17 +4,27 @@ Given two integer numbers, return their product only if the product is equal to 
 Otherwise, return their sum.
 """
 
-num1 = 30
-num2 = 50
+# num1 = 30
+# num2 = 50
+
+# def multiplication_and_sum(num1, num2):
+#     if num1 + num2 < 1000:
+#         sum = num1 + num2
+#         return sum
+#     else:
+#         mul = num1 * num2
+#         return mul
+       
+
+# output = multiplication_and_sum(20, 30)
+# print(output)
 
 def multiplication_and_sum(num1, num2):
-    if num1 + num2 < 1000:
-        sum = num1 + num2
-        return sum
+    product = num1 * num2
+    if product <= 1000:
+        return product
     else:
-        mul = num1 * num2
-        return mul
-       
+        return num1 + num2
 
 output = multiplication_and_sum(20, 30)
 print(output)
