@@ -19,8 +19,8 @@ def number_check(number_list):
         False
 
 numbers_x = [10, 20, 30, 40, 10]
-print("result is", number_check(numbers_x))
+print("result is : ", number_check(numbers_x))
 
 numbers_y = [75, 65, 35, 75, 30]
-print("result is", number_check(numbers_y))
+print("result is : ", number_check(numbers_y))
 
