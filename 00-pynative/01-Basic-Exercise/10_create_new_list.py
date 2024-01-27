@@ -18,5 +18,5 @@ def merge_list(list1, list2):
 list1 = [10, 20, 25, 30, 35]
 list2 = [40, 45, 60, 75, 90]
 
-x = merge_list(list1, list2)
-print(x)
+result = merge_list(list1, list2)
+print(result)
