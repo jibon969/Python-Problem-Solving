@@ -1,4 +1,5 @@
-# extract each digit
+
+# extract each digit ===========================================
 
 number = 7536
 print("Given number", number)
