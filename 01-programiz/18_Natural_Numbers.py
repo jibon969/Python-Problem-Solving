@@ -1,7 +1,6 @@
 # Sum of natural numbers up to num
 
 num = 5
-
 if num < 0:
    print("Enter a positive number")
 else:
