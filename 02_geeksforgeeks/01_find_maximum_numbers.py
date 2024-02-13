@@ -1,3 +1,4 @@
+#  maximum of two numbers
 def maximum(a, b):
      
     if a >= b:
