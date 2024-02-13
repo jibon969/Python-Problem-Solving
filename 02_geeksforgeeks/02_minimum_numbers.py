@@ -1,3 +1,4 @@
+# minimum of two numbers
 def minimum(a, b):
      
     if a <= b:
