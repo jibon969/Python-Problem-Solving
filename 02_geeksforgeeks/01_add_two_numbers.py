@@ -25,7 +25,7 @@ Output: 19
 # print("Sum of", number1, "and", number2 , "is", sum)
 
 
-# Add Two Numbers in Python Using Function ==========================
+# Add Two Numbers in Python Using Function =========================
 # def add_two_number(number1, number2):
 #     return number1 + number2
 
@@ -33,9 +33,18 @@ Output: 19
 # print(result)
 
 
-# Add Two Numbers Using operator.add() Method ===========================
-import operator
-num1 = 15
-num2 = 12
-result = operator.add(num1, num2)
+# Add Two Numbers Using operator.add() Method ==========================
+# import operator
+# num1 = 15
+# num2 = 12
+# result = operator.add(num1, num2)
+# print(result)
+
+
+# Add Two Number Using Lambda Function ==============================
+add_number = lambda x, y : x + y
+x =  5
+y = 6
+
+result = add_number(x, y)
 print(result)
