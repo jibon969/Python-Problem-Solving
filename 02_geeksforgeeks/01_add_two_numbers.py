@@ -17,9 +17,17 @@ Output: 19
 
 
 # Add Two Numbers with User Input ===================================
-number1 = int(input("Enter 1st number : "))
-number2 = int(input("Enter 2nd number : "))
-# Adding two number
-sum = number1 + number2
-# # printing values
-print("Sum of", number1, "and", number2 , "is", sum)
+# number1 = int(input("Enter 1st number : "))
+# number2 = int(input("Enter 2nd number : "))
+# # Adding two number
+# sum = number1 + number2
+# # # printing values
+# print("Sum of", number1, "and", number2 , "is", sum)
+
+
+# Add Two Numbers in Python Using Function ==========================
+def add_two_number(number1, number2):
+    return number1 + number2
+
+result = add_two_number(10, 4)
+print(result)
