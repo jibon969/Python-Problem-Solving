@@ -26,8 +26,16 @@ Output: 19
 
 
 # Add Two Numbers in Python Using Function ==========================
-def add_two_number(number1, number2):
-    return number1 + number2
+# def add_two_number(number1, number2):
+#     return number1 + number2
 
-result = add_two_number(10, 4)
+# result = add_two_number(10, 4)
+# print(result)
+
+
+# Add Two Numbers Using operator.add() Method ===========================
+import operator
+num1 = 15
+num2 = 12
+result = operator.add(num1, num2)
 print(result)
