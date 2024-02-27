@@ -11,9 +11,7 @@ def main(site_urls: List) -> None:
     for url  in site_urls:
         check_website_status(url=url)
     
-
-
-
+    
 if __name__ == "__main__":
     website_urls = [
     "https://www.google.com",
