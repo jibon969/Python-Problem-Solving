@@ -1,4 +1,3 @@
-
 # Find all files in a directory with extension
 
 your_location = input("Enter your location : ")
