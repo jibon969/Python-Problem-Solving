@@ -11,7 +11,7 @@ for root, dirs, files in os.walk(your_location):
             print(full_path)
 print("Thank you")
 
- 
+
         
     
 
