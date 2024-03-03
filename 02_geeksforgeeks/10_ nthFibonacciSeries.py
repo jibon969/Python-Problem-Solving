@@ -1,29 +1,14 @@
-# Python Program to find position of n\'th multiple
-# of a number k in Fibonacci Series
-
-def findPosition(k, n):
-	f1 = 0
-	f2 = 1
-	i =2; 
-	while i!=0:
-		f3 = f1 + f2;
-		f1 = f2;
-		f2 = f3;
-
-		if f2%k == 0:
-			return n*i
-
-		i+=1
+def nth_fib_multiple(n, k):
+	fibonacci = [0, 1]
+	counter = 0
+	for i in range(2, 10000):
+		current = fibonacci[i-1] + fibonacci[i-2]
+		if current % k == 0:
+			counter += 1
+			if counter == n:
+				return i
+		fibonacci.append(current)
 		
-	return
+# Example usage
+print(nth_fib_multiple(3, 2)) # Output: 9
 
-
-# Multiple no.
-n = 5;
-# Number of whose multiple we are finding
-k = 4;
-
-print("Position of n\'th multiple of k in"
-				"Fibonacci Series is", findPosition(k,n));
-
-# Code contributed by Mohit Gupta_OMG
