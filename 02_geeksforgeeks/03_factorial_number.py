@@ -1,4 +1,3 @@
-
 # factorial of given number
 def factorial(n):
 
