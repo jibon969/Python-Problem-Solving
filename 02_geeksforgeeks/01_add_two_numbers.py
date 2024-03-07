@@ -1,5 +1,4 @@
 # How to Add Two Numbers in Python – Easy Programs
-
 """ 
 Input: num1 = 5, num2 = 3
 Output: 8
