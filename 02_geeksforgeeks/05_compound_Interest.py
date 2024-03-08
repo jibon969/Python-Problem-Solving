@@ -1,5 +1,3 @@
-# Python3 program to find compound
-# interest for given values.
 def compound_interest(principal, rate, time):
 
 	# Calculates compound interest
