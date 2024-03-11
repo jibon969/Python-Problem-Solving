@@ -25,3 +25,9 @@ def add_two_number(x, y):
 
 result = add_two_number(5, 2)
 print("Result : ", result)
+
+
+# Using lambda function
+result = lambda a, b : a + b
+x = result(5, 2)
+print("lambda : ", x)
