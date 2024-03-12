@@ -31,3 +31,12 @@ print("Result : ", result)
 result = lambda a, b : a + b
 x = result(5, 2)
 print("lambda : ", x)
+
+
+# operator.add method
+import operator
+x = 5
+y = 6
+z = operator.add(x, y)
+print("operator.add method :", z)
+
