@@ -1,1 +1,0 @@
-# Maximum of two numbers in Python
