@@ -1,5 +1,4 @@
 # Python 3 program to find 
-# factorial of given number
 def factorial(n):
 	
 	# single line to find factorial
@@ -10,7 +9,6 @@ num = 5
 print("Factorial of",num,"is",factorial(num))
 
 
-# Python 3 program to find 
 # factorial of given number
 def factorial(n):
 	if n < 0:
@@ -29,4 +27,3 @@ num = 5
 print("Factorial of",num,"is",
 factorial(num))
 
-# This code is contributed by Dharmik Thakkar
