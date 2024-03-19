@@ -1,3 +1,4 @@
+
 # Python 3 program to find 
 def factorial(n):
 	
@@ -6,6 +7,7 @@ def factorial(n):
 
 # Driver Code
 num = 5
-print("Factorial of",num,"is",factorial(num))
+x = factorial(num)
+print("Factorial of",num,"is", x)
 
 
